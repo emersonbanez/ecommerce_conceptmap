@@ -1,0 +1,721 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#"
+     xml:base="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#delivers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#delivers">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#hires -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#hires">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#offers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#offers">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#promotes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#promotes">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#provides -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#provides">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#purchases -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#purchases">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Actors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Actors"/>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Advertising -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Advertising">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Bank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Bank">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Financial_Institution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Card_Issuers -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Card_Issuers">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Credit_Card_Companies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Card_Networks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Card_Networks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Credit_Card_Companies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Commercial_Bank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Commercial_Bank">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Bank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Consumer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Consumer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Individual"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#purchases"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Products"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#purchases"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Services"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Credit_Card_Companies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Credit_Card_Companies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Payment_Processor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Credit_Union -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Credit_Union">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Non-Bank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Currency_Exchange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Currency_Exchange">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Non-Bank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Customs_Brokerage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Customs_Brokerage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Logistics_Company"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Data_Analysis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Data_Analysis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Research"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Data_Collection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Data_Collection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Research"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Domestic_Ground_Transportation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Domestic_Ground_Transportation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Logistics_Company"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Drop_Shipping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Drop_Shipping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#E-Commerce_Platform -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#E-Commerce_Platform">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Legal_Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#E-Money_Companies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#E-Money_Companies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Payment_Processor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Enabler_Firm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Enabler_Firm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Legal_Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Finance_Services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Finance_Services">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Financial_Institution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Financial_Institution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Legal_Entity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#offers"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Finance_Services"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>https://www.worldbank.org/en/publication/gfdr/gfdr-2016/background/nonbank-financial-institution</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Freight_Delivery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Freight_Delivery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Logistics_Company"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Fulfillment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Fulfillment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Fulfillment_Company -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Fulfillment_Company">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Legal_Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Fund_Transfer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Fund_Transfer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Finance_Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Hedge_Fund -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Hedge_Fund">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Institutional_Investor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Individual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Individual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Actors"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Individual_Reseller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Individual_Reseller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Individual"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Infrastructure_Provider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Infrastructure_Provider">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Legal_Entity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#offers"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Provisioning"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Institutional_Investor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Institutional_Investor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Non-Bank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Insurance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Insurance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Finance_Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Insurance_Company -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Insurance_Company">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Non-Bank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#International_Freight_Forwarding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#International_Freight_Forwarding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Logistics_Company"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Internet_Service_Provider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Internet_Service_Provider">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Legal_Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Inventory_Handling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Inventory_Handling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Fulfillment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Inventory_Storage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Inventory_Storage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Fulfillment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Investment_Bank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Investment_Bank">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Bank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Legal_Entity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Legal_Entity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Actors"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#offers"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Products"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#offers"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Services"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Logistics_Company -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Logistics_Company">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Legal_Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Marketing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Marketing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Microloan_Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Microloan_Organization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Non-Bank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Mortgage_Company -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Mortgage_Company">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Non-Bank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Mutual_Fund -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Mutual_Fund">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Institutional_Investor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Network_Administrator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Network_Administrator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Individual"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Non-Bank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Non-Bank">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Financial_Institution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Online_Search -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Online_Search">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Operations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Operations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Order_Fulfilled -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Order_Fulfilled">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Fulfillment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Order_Processing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Order_Processing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Fulfillment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Packing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Packing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Fulfillment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Parcel_Delivery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Parcel_Delivery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Logistics_Company"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Pawn_Shop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Pawn_Shop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Non-Bank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Payment_Processor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Payment_Processor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Legal_Entity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#provides"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Fund_Transfer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Product_Encoding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Product_Encoding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Operations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Products -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Products"/>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Programmer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Programmer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Individual"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#provides"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Software_Development"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Provision_Computing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Provision_Computing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Provisioning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Provision_Database -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Provision_Database">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Provisioning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Provision_Networking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Provision_Networking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Provisioning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Provision_Storage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Provision_Storage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Provisioning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Provisioning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Provisioning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Proxy_Buying -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Proxy_Buying">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Research -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Research">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Retail_Bank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Retail_Bank">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Bank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Returns_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Returns_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Fulfillment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Savings_and_Loan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Savings_and_Loan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Non-Bank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Seller_Onboarding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Seller_Onboarding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Operations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Services"/>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Settlement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Settlement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Finance_Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Shipping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Shipping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Fulfillment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Software_Development -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Software_Development">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Technical_Support -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Technical_Support">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Operations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Telecom_Provider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Telecom_Provider">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Legal_Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Venture_Capital -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Venture_Capital">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Institutional_Investor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Warehousing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Warehousing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/emersonbanez/ontologies/2021/8/ecommerce#Logistics_Company"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
